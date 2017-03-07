@@ -31,8 +31,7 @@ public class MiscConfigInfo implements InitializingBean {
 
 	@Override
 	public void afterPropertiesSet() throws Exception {
-		System.out.println("-->" + listener);
-		System.out.println("-->" + kmsToWarning);
+		System.out.println("--> MiscConfigInfo.afterPropertiesSet() called");
 	}
 
 	public MiscConfigInfo() {
